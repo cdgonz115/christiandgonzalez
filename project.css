@@ -77,8 +77,8 @@ body
     line-height: 2em;
     font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .spotlight
 {
@@ -127,8 +127,9 @@ footer
     font-size: 75%;
     font-style: italic;
     text-align: center;
+    margin-top: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #FFFFFF;
+    background-color: #adadad;
 }
 footer h3
 {
@@ -279,6 +280,11 @@ footer .contacts
         font-size: 28px;
         color: #DC0128;
     }   
+    .introduction p
+    {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
 @media (min-width: 880px)
 {

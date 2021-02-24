@@ -1,0 +1,303 @@
+header
+{
+    size: 30px;
+    min-width: 300px;
+    padding: 0;
+}
+header a
+{
+    text-decoration: none;
+}
+h1
+{
+    margin: 0;
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
+    background-color: #0B0B4A;
+    color: #DC0128;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+nav
+{
+    margin-top: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}
+nav ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 1.2em;
+    margin: 10px;
+}
+nav a
+{
+    text-decoration: none;
+    font-family:'Righteous', Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #DC0128;
+}
+#wrapper
+{
+    min-width: 280px;
+    margin: auto;
+}
+body
+{
+    background-color: white;
+    margin: auto;
+}
+.introduction img
+{
+    display: block;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 80%;
+}
+.introduction h2
+{
+    margin-top: 40px;
+    color: #DC0128;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+.introduction p
+{
+    text-align: left;
+    padding: 30px;
+    font-size: 1em;
+    letter-spacing: .1em;
+    line-height: 2em;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.spotlight
+{
+    height: 500px;
+    max-width: 300px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #0B0B4A;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.spotlight .item
+{
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #DC0128;
+    min-width:  300px;
+    height: 400px;
+    line-height: 110px;
+    text-align: center;
+    align-self: center;
+    border:3px solid #0B0B4A;
+}
+.spotlight .item .title
+{
+    text-align: center;
+    font-family:'Righteous', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+.spotlight .item img
+{
+    height: 150px;
+    margin: auto;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    border:3px solid #0B0B4A;
+}
+footer
+{
+    padding: 2em;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFFFFF;
+}
+footer h3
+{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+    line-height: 2em;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+footer .contacts
+{
+    display: flex;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icon
+{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon img
+{
+    max-width: 50px;
+}
+.gameLink
+{
+    display: flex;
+    flex-direction: column;
+}
+.gameLink a
+{
+    text-decoration: none;
+}
+.gameLink h2
+{
+    margin-top: 40px;
+    color: #DC0128;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+.gameLink a h2:hover
+{
+    color:  #c77575;
+}
+.gameLink img
+{
+    width: 80%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.description h2
+{
+    margin-top: 40px;
+    color: #DC0128;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+.description p
+{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+    line-height: 2em;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.introduction img
+{
+    max-width: 600px;
+    width: 50%;
+}
+.contribution
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contributions
+{
+    display: flex;
+    flex-direction: column;
+}
+.contribution a
+{
+    text-decoration: none;
+}
+.contribution a h2:hover
+{
+    color:  #c77575;
+}
+.contribution a h2
+{
+    margin-top: 40px;
+    color: #DC0128;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+.contribution h3
+{
+    text-align: center;
+    color: black;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: .1em;
+    line-height: 2em;
+}
+.contributions .contribution
+{
+    display: block;
+    align-self: center;
+    width: 80%;
+}
+.contribution video
+{
+    width: 100%;
+    height: 56.25%;
+    border-radius: 10px;
+}
+@media (min-width: 600px)
+{
+    .spotlight
+    {
+        height: 500px;
+        max-width: 1385px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid #0B0B4A;
+        display: flex;
+        overflow-x: auto;
+        border-radius: 10px;
+        background-color: white;
+    }
+    nav a
+    {
+        text-decoration: none;
+        font-family:'Righteous', Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        color: #DC0128;
+    }   
+}
+@media (min-width: 880px)
+{
+    nav ul
+    {
+        list-style-type: none;
+        padding-left: 0px;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin: 15px;   
+    }
+}
+@media (min-width: 930)
+{
+    .introduction
+    {
+        height: 6000px;
+    }
+}

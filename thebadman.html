@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Christian Gonzalez :: The Bad Man</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Comfortaa:wght@300&family=Monoton&family=Press+Start+2P&family=Righteous&display=swap" rel="stylesheet">
+        <link href="project.css" rel = "stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id = "wrapper">
+            <header>
+                <a href="index.html"><h1>Christian Gonzalez</h1></a>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="colorphase.html">Colorphase</a></li>
+                    <li><a href="thebadman.html">The Bad Man</a></li>
+                    <li><a href="thestation.html">The Station</a></li>
+                    <li><a href="hyperloop.html">HyperLoop</a></li>
+                    <li><a href="firefox.html">FireFox</a></li>
+                    <li><a href="cybob.html">Cybob</a></li>
+                </ul>
+            </nav>
+            <div class = "description">
+                <h2>
+                    Game Summary
+                </h2>
+                <p>
+                    Cower in fear as you explore a massive museum full of huge, life-like exhibits as you are stalked by the bad, hooded man.
+                    Get caught and you will surely die, unlock the door, escape, or say goodbye!
+                </p>
+            </div>
+            <div class = "gameLink">
+                <a href = "https://cg115.itch.io/the-bad-man" target="_blank">
+                    <h2>Download Here</h2>
+                </a>
+                <img src = "TheBadMan/badman.png">
+            </div>
+            <div class="contributions">
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/commits?author=propredator23" target="_blank">
+                        <h2>
+                            Full Project Commit History
+                        </h2>
+                    </a>
+                    <h3>The Full commit History to showcase in detail all of my contributions to this project</h3>
+                </div>
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/blob/master/Assets/_Scripts/Museum/EndingCinematic.cs" target="_blank">
+                        <h2>
+                            Camera Cutscenes
+                        </h2>
+                    </a>
+                    <h3>
+                        During important parts of the game, cutscenes can play to help guide the player.
+                    </h3>
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src="TheBadMan/cutscenes.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/moveTo.cs#L135" target="_blank">
+                        <h2>
+                            AI line of sight spawn
+                        </h2>
+                    </a>
+                    <h3>
+                        Improved the AI script so that it can spawn in front of the player if its out of line of sight and do a jumpscare.
+                    </h3>
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src="TheBadMan/lineofsight.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/moveTo.cs#L126" target="_blank">
+                        <h2>
+                            AI catch up mechanic
+                        </h2>
+                    </a>
+                    <h3>
+                        Improved the Ai and made it teleport closer to the player to be more present on the bigger maps.
+                    </h3>
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src="TheBadMan/catchupmechanic.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/blob/master/Assets/_Scripts/VikingLight/StatueLight.cs" target="_blank">
+                        <h2>
+                            Viking Level Guiding Light
+                        </h2>
+                    </a>
+                    <h3>
+                        Added a light to always be present between the player and the closest point of interest in order to guide them,
+                        the intensity of it is relative to the distance of the player from that object.
+                    </h3>
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src="TheBadMan/lightguidemechanic.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/AISight.cs#L130" target="_blank">
+                        <h2>
+                            Stun Improvement
+                        </h2>
+                    </a>
+                    <h3>
+                        The Stun mechanic was improved to allow the player to hide nearby after blinding The Bad Guy.
+                    </h3>
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src="TheBadMan/stunmechanic.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/Interactables/HideInteractable.cs#L39" target="_blank">
+                        <h2>
+                            Hiding Improvement
+                        </h2>
+                    </a>
+                    <h3>
+                        Wether the player hides sucessfully is dependent on line of sight, this allowed for the bad man to catch the player 
+                        while hiding but this was not well communicated to the palyer, as a result a prompt was added to let the player know.
+                    </h3>
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src="TheBadMan/hidingmechanic.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/moveTo.cs#L225" target="_blank">
+                        <h2>
+                            Glowing Eyes (EPILEPSY WARNING!!!)
+                        </h2>
+                    </a>
+                    <h3>
+                        Due to the dark nature of the maps, it was sometimes hard to tell where The Bad Man was and wether he was chaising. 
+                        As a result glowing red eyes where added as a way help the player know where The Bad Man was.
+                    </h3>
+                    <video width="1280" height="720" controls muted>
+                        <source src="TheBadMan/eyeglow.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/tree/master/Assets/_Scripts/Future" target="_blank">
+                        <h2>
+                            Level Specific details
+                        </h2>
+                    </a>
+                    <h3>
+                        Made scripts specific to level information/interactions such as the flickering lights in some levels and melting ice.
+                    </h3>
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src="TheBadMan/leveldetails.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class ="contribution">
+                    <a href = "https://github.com/propredator23/CPI_211_Final/blob/master/Assets/_Scripts/Museum/JumpScare.cs" target="_blank">
+                        <h2>
+                            Tutorial Encounter
+                        </h2>
+                    </a>
+                    <h3>
+                        Upon the feedback received after initial realease, a first encounter was added in the museum to help the player
+                        understand how to defend themselves with the flashlight.
+                    </h3>
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src="TheBadMan/firstencounter.mp4" type="video/mp4">
+                    </video>
+                </div>  
+            </div>
+            <footer>
+                <div class="contacts">
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/christian-gonzalez-a297211b6" target="_blank">
+                            <img src="linkedin.png">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://github.com/propredator23" target="_blank">
+                            <img src="github.png">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://cg115.itch.io/" target="_blank">
+                            <img src="itch-io.png">
+                        </a>
+                    </div>
+                </div>
+        
+                Copyright &copy; 2021 Christian Gonzalez
+                <br>
+                <a href="mailto:christiandgonzalez115@gmail.com">Christian Gonzalez</a> &nbsp; 
+            </footer>         
+        </div>         
+    </body>
+</html>

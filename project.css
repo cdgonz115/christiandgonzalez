@@ -48,7 +48,7 @@ nav a
 }
 body
 {
-    background-color: white;
+    background-color: #b8dbfc;
     margin: auto;
 }
 .introduction img
@@ -129,7 +129,7 @@ footer
     text-align: center;
     margin-top: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #adadad;
+    background-color: #7a8fa7;
 }
 footer h3
 {
@@ -271,7 +271,7 @@ footer .contacts
         display: flex;
         overflow-x: auto;
         border-radius: 10px;
-        background-color: white;
+        background-color: #c8e5ff;
     }
     nav a
     {

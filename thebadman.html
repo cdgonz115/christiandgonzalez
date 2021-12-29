@@ -19,7 +19,7 @@
                     <li><a href="thebadman.html">The Bad Man</a></li>
                     <li><a href="thestation.html">The Station</a></li>
                     <li><a href="hyperloop.html">HyperLoop</a></li>
-                    <li><a href="firefox.html">FireFox</a></li>
+                    <li><a href="firefox.html">Aegis Initiative</a></li>
                     <li><a href="cybob.html">Cybob</a></li>
                 </ul>
             </nav>
@@ -67,7 +67,7 @@
                         </h2>
                     </a>
                     <h3>
-                        Improved the AI script so that it can spawn in front of the player if its out of line of sight and do a jumpscare.
+                        Improved the AI script so that The Bad Man can spawn in front of the player if it's out of line of sight and perform a jumpscare.
                     </h3>
                     <video width="1280" height="720" controls muted autoplay loop>
                         <source src="TheBadMan/lineofsight.mp4" type="video/mp4">
@@ -80,7 +80,7 @@
                         </h2>
                     </a>
                     <h3>
-                        Improved the Ai and made it teleport closer to the player to be more present on the bigger maps.
+                        Improved the AI script and made The Bad Man teleport closer to the player if they are not in sight to be more of a threat on the bigger maps.
                     </h3>
                     <video width="1280" height="720" controls muted autoplay loop>
                         <source src="TheBadMan/catchupmechanic.mp4" type="video/mp4">
@@ -101,6 +101,20 @@
                     </video>
                 </div>
                 <div class ="contribution">
+                    <a href = "https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/Interactables/HideInteractable.cs#L39" target="_blank">
+                        <h2>
+                            Hiding Improvement
+                        </h2>
+                    </a>
+                    <h3>
+                        Whether the player hides successfully is dependent on line of sight, this allowed for the bad man to catch the player 
+                        while hiding but this was not well communicated to the player, as a result a prompt was added to let the player know.
+                    </h3>
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src="TheBadMan/hidingmechanic.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class ="contribution">
                     <a href = "https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/AISight.cs#L130" target="_blank">
                         <h2>
                             Stun Improvement
@@ -114,28 +128,14 @@
                     </video>
                 </div>
                 <div class ="contribution">
-                    <a href = "https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/Interactables/HideInteractable.cs#L39" target="_blank">
-                        <h2>
-                            Hiding Improvement
-                        </h2>
-                    </a>
-                    <h3>
-                        Wether the player hides sucessfully is dependent on line of sight, this allowed for the bad man to catch the player 
-                        while hiding but this was not well communicated to the palyer, as a result a prompt was added to let the player know.
-                    </h3>
-                    <video width="1280" height="720" controls muted autoplay loop>
-                        <source src="TheBadMan/hidingmechanic.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class ="contribution">
                     <a href = "https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/moveTo.cs#L225" target="_blank">
                         <h2>
-                            Glowing Eyes (EPILEPSY WARNING!!!)
+                            Glowing Eyes (small epilepsy warning)
                         </h2>
                     </a>
                     <h3>
-                        Due to the dark nature of the maps, it was sometimes hard to tell where The Bad Man was and wether he was chaising. 
-                        As a result glowing red eyes where added as a way help the player know where The Bad Man was.
+                        Due to the dark nature of the maps, it was sometimes hard to tell where The Bad Man was and whether he was chasing.
+                        As a result glowing red eyes were added as a way to help the player know where The Bad Man is.
                     </h3>
                     <video width="1280" height="720" controls muted>
                         <source src="TheBadMan/eyeglow.mp4" type="video/mp4">
@@ -161,7 +161,7 @@
                         </h2>
                     </a>
                     <h3>
-                        Upon the feedback received after initial realease, a first encounter was added in the museum to help the player
+                        Upon the feedback received after initial release, a first encounter was added in the museum to help the player
                         understand how to defend themselves with the flashlight.
                     </h3>
                     <video width="1280" height="720" controls muted autoplay loop>

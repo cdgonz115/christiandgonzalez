@@ -80,6 +80,21 @@ body
     margin-left: 10px;
     margin-right: 10px;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.205);
+
+}
+.spotlight::-webkit-scrollbar {
+    width: 0px;
+}
+.spotlight::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 82, 150, 0.205);
+}
 .spotlight
 {
     height: 500px;
@@ -92,6 +107,7 @@ body
     overflow-x: auto;
     border-radius: 10px;
     background-color: white;
+
 }
 
 .spotlight .item
@@ -286,7 +302,7 @@ footer .contacts
         margin-right: 100px;
     }
 }
-@media (min-width: 880px)
+@media (min-width: 1290px)
 {
     nav ul
     {
